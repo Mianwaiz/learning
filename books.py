@@ -13,3 +13,4 @@ class MySpider(scrapy.Spider):
         self.start_urls = [
             f"http://www.example.com/categories/{category}{username}{password}"
             ]
+            
